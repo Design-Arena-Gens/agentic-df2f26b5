@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+html, body, #__next { height: 100%; margin: 0; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; color: #0f172a; background: #f8fafc; }
+button { cursor: pointer; }
+.container { max-width: 1100px; margin: 0 auto; padding: 24px; }
+.card { background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 16px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+label { font-weight: 600; display: block; margin-bottom: 6px; }
+input, textarea, select { width: 100%; padding: 10px 12px; border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; font-size: 14px; }
+textarea { min-height: 120px; }
+.section-title { font-size: 18px; font-weight: 700; margin: 4px 0 12px; }
+.small { font-size: 12px; color: #64748b; }
+.actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.primary { background: #1d4ed8; color: white; border: none; border-radius: 8px; padding: 10px 14px; }
+.secondary { background: #f1f5f9; color: #0f172a; border: 1px solid #e2e8f0; border-radius: 8px; padding: 10px 14px; }
+.success { background: #16a34a; color: white; border: none; border-radius: 8px; padding: 10px 14px; }
+.warning { background: #f59e0b; color: white; border: none; border-radius: 8px; padding: 10px 14px; }
+.grid { display: grid; gap: 12px; }
+hr { border: none; height: 1px; background: #e2e8f0; margin: 16px 0; }
+.mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
